@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  font-family: 'Quicksand', sans-serif;
+  height: 45px;
+  padding: 1px;
+  padding-bottom: 20px;
+  color: #1e87ff;
+  background-image: url('./photo/lines.jpg');
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.App-intro {
+  font-size: large;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  margin: 0 auto;
+}
+.restart-top {
+  width: 100%;
+  height: 90px;
+  float: left;
+  background-image: url('./photo/lines.jpg');
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 25px;
+}
+.restart{
+  width: 50%;
+  height: 10px;
+  margin: 0 auto;
+
+}
+.player-one {
+  width: 33%;
+  height: 50px;
+  float: left;
+}
+.player-one p {
+  color: blue;
+  font-size: 30px;
+  padding: 0px;
+}
+.player {
+  width: 32%;
+  float: left;
+
+}
+.board-container {
+  width: 534px;
+  height: 475px;
+  margin: 0 auto;
+  margin-top: 80px;
+
+}
+.select {
+  width: 535px;
+  height: 400px;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+
+}
+.selectBoxPlayer1{
+  width: 70px;
+  height: 61px;
+  float: left;
+  border-color: white;
+  border-style: solid;
+  color: white;
+
+}
+.selectBoxPlayer1:hover {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('./photo/yellow.jpg');
+}
+
+.selectBoxPlayer2{
+  width: 70px;
+  height: 61px;
+  float: left;
+  border-color: white;
+  border-style: solid;
+  color: white;
+
+}
+.selectBoxPlayer2:hover {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('./photo/red.gif');
+}
+.each{
+  width: 70px;
+  height: 61px;
+  float: left;
+  border-color:#1e87ff ;
+  border-style: solid;
+  list-style: none;
+  background-image: url('./photo/board-sqr.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.eachp {
+  width: 70px;
+  height: 61px;
+  float: left;
+  border-color: #1e87ff;
+  border-style: solid;
+  list-style: none;
+  background-image: url('./photo/board-sqr.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: yellow;
+}
+.each2{
+  width: 70px;
+  height: 61px;
+  float: left;
+  border-color: #1e87ff;
+  border-style: solid;
+  list-style: none;
+  background-image: url('./photo/board-sqr.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: red;
+}
+.row{
+  width: 534px;
+  height: 67px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.player-two {
+  width: 30%;
+  height: 30px;
+  float: left;
+}
+.player-two p {
+  color: #1e87ff;
+  font-size: 30px;
+}
+.winner {
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    color: #1e87ff;
+    background-image: url('./photo/lines.jpg');
+}
+.winner p {
+  margin: 0 auto;
+  font-size: 80px;
+  width: 100%;
+  margin-top: 100px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+.winner button {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  border-color: #1e87ff;
+}
