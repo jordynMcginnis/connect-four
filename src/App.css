@@ -20,12 +20,29 @@
   justify-content: space-around;
 }
 
-.circle {
+.empty {
   height: 15%;
-  width: 13%;
+  width: 12%;
+  background-color: white;
+  border-color: yellow;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.red {
+  height: 15%;
+  width: 12%;
   background-color: red;
   border-color: yellow;
   border-style: solid;
   border-radius: 50%;
+}
 
+.blue {
+  height: 15%;
+  width: 12%;
+  background-color: blue;
+  border-color: yellow;
+  border-style: solid;
+  border-radius: 50%;
 }
