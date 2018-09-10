@@ -51,8 +51,25 @@ class Grid extends Component {
     } else {
       winner = false;
     }
-    winner === true ? alert('winner') : null
     //check horizontally
+
+    let count = 0;
+    for(var i = 0; i < this.state.grid[row].length; i++){
+      if(this.state.grid[row][i] === player){
+        count += 1;
+        if(count >= 4){
+          winner = true
+          alert('winner')
+          return;
+        }
+      } else {
+        count = 0;
+        winner = false
+      }
+    }
+    winner === true ? alert('winner') : null
+     //check diagonally
+
   }
   render () {
     return (
