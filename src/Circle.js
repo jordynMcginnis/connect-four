@@ -11,8 +11,8 @@ class Circle extends Component {
   render () {
     return (
       <div className={this.props.style} onClick={this.selectCircle}>
-        column: {this.props.column}
-        row: {this.props.row}
+      {this.props.row}  , {this.props.column}
+
         {this.props.style}
       </div>
     )
